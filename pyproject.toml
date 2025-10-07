@@ -1,0 +1,14 @@
+[project]
+name = "echoforge"
+version = "0.1.0"
+description = "Automation CLI for Web3 and DevOps workflows"
+authors = [{ name = "Calvin Jones" }]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+echoforge = "echoforge.cli:app"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
