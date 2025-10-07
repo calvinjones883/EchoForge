@@ -1,0 +1,6 @@
+name: Check MinaProtocol Release
+tasks:
+  - type: github_release
+    repo: MinaProtocol/mina
+  - type: etherscan_verify
+    address: "0xDeaDbeef00000000000000000000000000000000"
